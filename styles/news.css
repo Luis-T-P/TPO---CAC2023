@@ -35,6 +35,7 @@
 
 h2{
     text-align: center;
+    color: white;
 }
 
 
@@ -50,6 +51,10 @@ body{
     font-family: sans-serif;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 h1{
     font-family: 'Shadows Into Light', cursive;
 }
@@ -61,7 +66,10 @@ h2, h3, h5{
 h3{
     /*border: 2px solid rgb(76, 0, 255);*/
     text-align: center;
+    color: white
 }
+
+
 
 header{
     /*background-color: rgba(16, 94, 189, 0.694);*/
@@ -70,9 +78,7 @@ header{
     top: 0;
 }
 
-.text-blue{
-    color: blue;
-}
+
 
 
 
@@ -108,7 +114,7 @@ header{
 .caja{
     padding: 1rem;
     font-size: 1.5rem;
-    
+    text-decoration: none;
     color: white;
     
 }
@@ -116,6 +122,7 @@ header{
 .caja:hover{
     color:#2b12e7;
     font-size: 1.8rem;
+    
 }
 
 header ul{
@@ -131,7 +138,7 @@ a{
 font-family: 'Indie Flower', cursive;
 */
 
-.carousel-caption{
+/*.carousel-caption{
     color: #fcfcfc;
     margin: 0;
     width: 75%;
@@ -144,6 +151,17 @@ font-family: 'Indie Flower', cursive;
     display: flex;
     justify-content: center;
     
+}*/
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+.carousel-item img {
+    position: absolute;
+    height: 500px;
+    top: 0;
+    left: 0;
 }
 
 p{
@@ -272,6 +290,15 @@ p{
     color: #000; 
 }
 
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 120px; */
+    margin: 20px;
+}
 
 #cine{
     
@@ -281,7 +308,7 @@ p{
     font-weight: bold;
     margin: 2rem;
 }
-
+/*
 #PC{
     
     border: 2px dashed red;
@@ -308,7 +335,7 @@ p{
     font-weight: bold;
     margin: 2rem
 }
-
+*/
 #footer{
     background-color: #151822;
     padding: 15px 10px;
