@@ -69,7 +69,11 @@ h3{
     color: white
 }
 
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 
+}
 
 header{
     /*background-color: rgba(16, 94, 189, 0.694);*/
