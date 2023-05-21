@@ -59,12 +59,12 @@ h1{
     font-family: 'Shadows Into Light', cursive;
 }
 
-h2, h3, h5{
+h2, h3{
     font-family: 'Chakra Petch', sans-serif;
 }
 
 h3{
-    /*border: 2px solid rgb(76, 0, 255);*/
+    
     text-align: center;
     color: white
 }
@@ -72,7 +72,7 @@ h3{
 p{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-
+    color: #000000;
 }
 
 header{
@@ -81,10 +81,6 @@ header{
     /*position: sticky;*/
     top: 0;
 }
-
-
-
-
 
 .header{
     width: auto;
@@ -142,20 +138,7 @@ a{
 font-family: 'Indie Flower', cursive;
 */
 
-/*.carousel-caption{
-    color: #fcfcfc;
-    margin: 0;
-    width: 75%;
-    line-height: 10px;
-    padding: 5px;
-    font-size: 28px;
-    text-align: center;
-    max-width: 100%;
-    flex-flow: row;
-    display: flex;
-    justify-content: center;
-    
-}*/
+
 
 .carousel .carousel-item {
     height: 500px;
@@ -168,9 +151,9 @@ font-family: 'Indie Flower', cursive;
     left: 0;
 }
 
-p{
+/*p{
     font-family: 'Raleway', sans-serif;
-}
+}*/
 
 .section1{
     background-image: 
@@ -200,6 +183,11 @@ p{
     width: 100%;
     background-image: linear-gradient(135deg,#080808, #28282b, #44464d, #5d5d6b, #7d7692, #8b848b,#797577
     );
+}
+
+.subtitle{
+    margin: 2rem;
+    font-weight: bold;
 }
 
 .flex-container{
@@ -247,41 +235,14 @@ p{
     margin: 1rem;
 }
 
-/*
-.xbox{
-    background-image: url("../TPO 2023/img/logo_xbox.jpg");
-    background-size: cover;
-    background-position: center;
-    
-    background-repeat: no-repeat;
-}
-*/
-
-/*
-.platform{
-    background-position: 50% 50%;
-    width: 100px;
-    padding: 0.5rem 0.5rem;
-    
-}
-*/
-/*
-.titles{
-    text-align: center;
-    
-}
-*/
-/*#article{
-    border: 2px solid black;
-    padding: 1rem;
-    margin: 1rem;
-}*/
-
 .button{
     background-color: rgba(82, 99, 184, 0.801);
     border-radius: 5px;
     border: none;
-    padding: 0.5rem; 
+    padding: 0.5rem;
+    font-family: 'Indie Flower', cursive; 
+    
+    
 }
 
 .button a:hover{
@@ -302,49 +263,82 @@ p{
     flex-wrap: wrap;
     /* gap: 120px; */
     margin: 20px;
-}
-/*
-#cine{
+    text-align: center;
     
-    border: 2px dashed red;
-    text-align: left;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 2rem;
-}
-*/
-/*
-#PC{
-    
-    border: 2px dashed red;
-    text-align: left;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 2rem
 }
 
-#PlayStation{
-    
-    border: 2px dashed red;
-    text-align: left;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 2rem
+.pie-pagina{
+    width: 100%;
+    background-color: #23293f;
 }
 
-#Nintendo{
-    
-    border: 2px dashed red;
-    text-align: left;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 2rem
+.pie-pagina .grupo-1{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
 }
-*/
-#footer{
+
+.red-social{
+    display: flex;
+    justify-content: center;
+}
+
+.red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #a7e3ff;
+    margin-right: 10px;
+    background-color: #151822;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.red-social a:hover{
+    color: #f54fd9;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+    
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.grupo-2{
     background-color: #151822;
     padding: 15px 10px;
     text-align: center;
     color: #d1cdcf;
     font-size: 20px;
 }
+
+/*
+#footer{
+    background-color: #151822;
+    padding: 15px 10px;
+    text-align: center;
+    color: #d1cdcf;
+    font-size: 20px;
+}*/
